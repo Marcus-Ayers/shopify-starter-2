@@ -22,5 +22,12 @@ export const metadata = {
 };
 
 export default async function HomePage() {
-  return <>{/* <HomePageThree /> */}</>;
+  return (
+    <>
+      {/* <HomePageThree /> */}
+      <div>
+        <h1 className="text-4xl font-bold text-white">Home Page</h1>
+      </div>
+    </>
+  );
 }
